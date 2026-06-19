@@ -3,7 +3,6 @@ langchain
 langchain-community
 langchain-core
 langchain-groq
-langchain-huggingface
-sentence-transformers
+fastembed
 faiss-cpu
 pypdf
