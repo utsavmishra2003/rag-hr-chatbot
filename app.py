@@ -21,7 +21,7 @@ REFUSAL_MESSAGE = "I can only answer HR-related questions from Zyro Dynamics pol
 def build_rag():
     os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
 
-    corpus_path = "data"
+    corpus_path = "."
 
     loader = PyPDFDirectoryLoader(corpus_path)
     documents = loader.load()
